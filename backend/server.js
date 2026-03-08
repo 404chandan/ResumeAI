@@ -9,7 +9,7 @@ const path = require("path");
 const authRoutes = require("./routes/auth");
 const resumeRoutes = require("./routes/resume");
 
-const app = express();
+const app = express();     
 
 // Middlewares
 app.use(express.json());
